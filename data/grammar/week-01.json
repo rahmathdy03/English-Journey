@@ -1,0 +1,89 @@
+{
+  "week": 1,
+  "days": [
+    {
+      "week": 1,
+      "day": 1,
+      "id": "g1d1",
+      "title": "To Be",
+      "level": "basic",
+      "function": "Use am, is, and are to describe identity, condition, or location.",
+      "formula": "Subject + am/is/are + complement",
+      "positiveExample": "I am ready.",
+      "negativeExample": "She is not tired.",
+      "questionExample": "Are they at home?",
+      "explanation": "Use “am” with I, “is” with he/she/it, and “are” with you/we/they.",
+      "commonMistakes": "Do not write “I is” or “They is”."
+    },
+    {
+      "week": 1,
+      "day": 2,
+      "id": "g1d2",
+      "title": "Simple Present Tense",
+      "level": "basic",
+      "function": "Use it for habits, routines, facts, and repeated actions.",
+      "formula": "Subject + base verb (s/es for he, she, it)",
+      "positiveExample": "I study every night.",
+      "negativeExample": "She does not study on Sunday.",
+      "questionExample": "Do you practice every day?",
+      "explanation": "Add s/es for he, she, and it in positive sentences.",
+      "commonMistakes": "Do not add s/es after does or does not."
+    },
+    {
+      "week": 1,
+      "day": 3,
+      "id": "g1d3",
+      "title": "Subject Pronouns",
+      "level": "basic",
+      "function": "Subject pronouns replace the person or thing doing the action.",
+      "formula": "I, you, we, they, he, she, it",
+      "positiveExample": "She works in an office.",
+      "negativeExample": "They are not late.",
+      "questionExample": "Is he your supervisor?",
+      "explanation": "Choose a pronoun that matches the subject.",
+      "commonMistakes": "Do not use an object pronoun such as “me” as the subject."
+    },
+    {
+      "week": 1,
+      "day": 4,
+      "id": "g1d4",
+      "title": "Articles: A, An, The",
+      "level": "basic",
+      "function": "Use a/an for one non-specific countable noun and the for something specific.",
+      "formula": "a + consonant sound; an + vowel sound; the + specific noun",
+      "positiveExample": "I eat an apple.",
+      "negativeExample": "This is not a restaurant.",
+      "questionExample": "Is that the menu?",
+      "explanation": "Choose by sound, not only spelling.",
+      "commonMistakes": "Use “an hour” because hour begins with a vowel sound."
+    },
+    {
+      "week": 1,
+      "day": 5,
+      "id": "g1d5",
+      "title": "Adverbs of Frequency",
+      "level": "basic",
+      "function": "These adverbs show how often an action happens.",
+      "formula": "Subject + adverb + main verb; subject + to be + adverb",
+      "positiveExample": "I often read English articles.",
+      "negativeExample": "She is not usually late.",
+      "questionExample": "Do they always practice?",
+      "explanation": "Place the adverb before a main verb but after to be.",
+      "commonMistakes": "Write “She is always ready,” not “She always is ready” in basic usage."
+    },
+    {
+      "week": 1,
+      "day": 6,
+      "id": "g1d6",
+      "title": "Adjectives",
+      "level": "basic",
+      "function": "Adjectives describe nouns or pronouns.",
+      "formula": "adjective + noun OR subject + to be + adjective",
+      "positiveExample": "It is an interesting book.",
+      "negativeExample": "The lesson is not difficult.",
+      "questionExample": "Is the restaurant expensive?",
+      "explanation": "Adjectives do not change for singular or plural nouns.",
+      "commonMistakes": "Do not add s to an adjective."
+    }
+  ]
+}

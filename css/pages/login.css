@@ -1,0 +1,79 @@
+.login-page{min-height:100vh;display:grid;place-items:center;padding:24px}.login-panel{width:min(100%,860px)}.login-title{text-align:center;margin-bottom:24px}.profile-choice{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.profile-card{border:2px solid transparent;text-align:center}.profile-card.selected{border-color:#86C1FA;box-shadow:0 0 0 5px rgba(134,193,250,.15)}.profile-card img{width:112px;height:112px;margin:0 auto 12px;border-radius:32px}.login-form{width:min(100%,420px);margin:22px auto 0}
+
+.login-title .landing-brand {
+  width: fit-content;
+  margin: 0 auto 18px;
+  justify-content: center;
+}
+
+.login-title .landing-brand img {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.login-title .landing-brand span {
+  font-size: 1rem;
+}
+
+.login-title .landing-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto 8px;
+  text-align: center;
+}
+
+.login-title .landing-brand img {
+  display: block;
+  width: 82px;
+  height: 82px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.login-title .landing-brand span {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form label {
+  display: block;
+  margin: 0;
+  font-weight: 600;
+}
+
+.login-form input {
+  width: 100%;
+  min-height: 46px;
+  padding: 12px 14px;
+  border-radius: 12px;
+}
+
+.login-form .button,
+.login-form button {
+  width: 100%;
+  min-height: 46px;
+  margin-top: 2px;
+}
+
+.login-form .form-note {
+  margin-top: 2px;
+  line-height: 1.5;
+}

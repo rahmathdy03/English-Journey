@@ -1,0 +1,68 @@
+[
+  {
+    "id": "first_lesson",
+    "name": "First Lesson",
+    "description": "Complete your first daily lesson.",
+    "icon": "book-check"
+  },
+  {
+    "id": "first_perfect_score",
+    "name": "First Perfect Score",
+    "description": "Earn a score of 100.",
+    "icon": "sparkles"
+  },
+  {
+    "id": "streak_7",
+    "name": "7 Day Streak",
+    "description": "Study seven consecutive days.",
+    "icon": "flame"
+  },
+  {
+    "id": "streak_30",
+    "name": "30 Day Streak",
+    "description": "Study thirty consecutive days.",
+    "icon": "flame-kindling"
+  },
+  {
+    "id": "vocab_50",
+    "name": "50 Vocabulary",
+    "description": "Learn fifty words.",
+    "icon": "languages"
+  },
+  {
+    "id": "vocab_100",
+    "name": "100 Vocabulary",
+    "description": "Learn one hundred words.",
+    "icon": "library-big"
+  },
+  {
+    "id": "grammar_beginner",
+    "name": "Grammar Beginner",
+    "description": "Complete six grammar topics.",
+    "icon": "notebook-tabs"
+  },
+  {
+    "id": "grammar_master",
+    "name": "Grammar Master",
+    "description": "Reach 90% grammar accuracy.",
+    "icon": "crown"
+  },
+  {
+    "id": "weekly_champion",
+    "name": "Weekly Champion",
+    "description": "Finish a weekly challenge.",
+    "icon": "trophy"
+  },
+  {
+    "id": "learn_together",
+    "name": "Learn Together",
+    "description": "Both users complete the same day.",
+    "icon": "users-round"
+  },
+  {
+    "id": "perfect_week",
+    "name": "Perfect Week",
+    "description": "Complete a week with excellent results.",
+    "icon": "star"
+  }
+]

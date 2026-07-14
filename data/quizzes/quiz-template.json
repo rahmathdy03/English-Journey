@@ -1,0 +1,10 @@
+{
+  "id": "q-id",
+  "prompt": "Question",
+  "options": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ]
+}

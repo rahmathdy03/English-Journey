@@ -1,0 +1,407 @@
+{
+  "week": 1,
+  "days": [
+    {
+      "week": 1,
+      "day": 1,
+      "topic": "Day 1",
+      "words": [
+        {
+          "id": "w1d1-achieve",
+          "word": "achieve",
+          "meaning": "mencapai",
+          "pronunciation": "achieve",
+          "phonetic": "/əˈtʃiːv/",
+          "partOfSpeech": "verb",
+          "example": "I want to achieve my goals.",
+          "exampleTranslation": "Saya ingin mencapai tujuan saya.",
+          "synonym": "accomplish",
+          "antonym": "fail"
+        },
+        {
+          "id": "w1d1-improve",
+          "word": "improve",
+          "meaning": "meningkatkan",
+          "pronunciation": "improve",
+          "phonetic": "/ɪmˈpruːv/",
+          "partOfSpeech": "verb",
+          "example": "Practice can improve your English.",
+          "exampleTranslation": "Latihan dapat meningkatkan bahasa Inggris kamu.",
+          "synonym": "enhance",
+          "antonym": "worsen"
+        },
+        {
+          "id": "w1d1-confident",
+          "word": "confident",
+          "meaning": "percaya diri",
+          "pronunciation": "confident",
+          "phonetic": "/ˈkɒnfɪdənt/",
+          "partOfSpeech": "adjective",
+          "example": "She feels confident before the test.",
+          "exampleTranslation": "Dia merasa percaya diri sebelum ujian.",
+          "synonym": "self-assured",
+          "antonym": "insecure"
+        },
+        {
+          "id": "w1d1-practice",
+          "word": "practice",
+          "meaning": "berlatih",
+          "pronunciation": "practice",
+          "phonetic": "/ˈpræktɪs/",
+          "partOfSpeech": "verb",
+          "example": "We practice speaking every day.",
+          "exampleTranslation": "Kami berlatih berbicara setiap hari.",
+          "synonym": "train",
+          "antonym": "neglect"
+        },
+        {
+          "id": "w1d1-remember",
+          "word": "remember",
+          "meaning": "mengingat",
+          "pronunciation": "remember",
+          "phonetic": "/rɪˈmembər/",
+          "partOfSpeech": "verb",
+          "example": "Remember to review the lesson.",
+          "exampleTranslation": "Ingatlah untuk mengulang materi.",
+          "synonym": "recall",
+          "antonym": "forget"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 2,
+      "topic": "Day 2",
+      "words": [
+        {
+          "id": "w1d2-reliable",
+          "word": "reliable",
+          "meaning": "dapat diandalkan",
+          "pronunciation": "reliable",
+          "phonetic": "/rɪˈlaɪəbəl/",
+          "partOfSpeech": "adjective",
+          "example": "Rahmat is a reliable partner.",
+          "exampleTranslation": "Rahmat adalah pasangan belajar yang dapat diandalkan.",
+          "synonym": "dependable",
+          "antonym": "unreliable"
+        },
+        {
+          "id": "w1d2-hesitate",
+          "word": "hesitate",
+          "meaning": "ragu-ragu",
+          "pronunciation": "hesitate",
+          "phonetic": "/ˈhezɪteɪt/",
+          "partOfSpeech": "verb",
+          "example": "Do not hesitate to ask questions.",
+          "exampleTranslation": "Jangan ragu untuk bertanya.",
+          "synonym": "pause",
+          "antonym": "decide"
+        },
+        {
+          "id": "w1d2-prepare",
+          "word": "prepare",
+          "meaning": "mempersiapkan",
+          "pronunciation": "prepare",
+          "phonetic": "/prɪˈpeər/",
+          "partOfSpeech": "verb",
+          "example": "I prepare my notes before class.",
+          "exampleTranslation": "Saya mempersiapkan catatan sebelum kelas.",
+          "synonym": "arrange",
+          "antonym": "neglect"
+        },
+        {
+          "id": "w1d2-complete",
+          "word": "complete",
+          "meaning": "menyelesaikan",
+          "pronunciation": "complete",
+          "phonetic": "/kəmˈpliːt/",
+          "partOfSpeech": "verb",
+          "example": "Please complete today’s lesson.",
+          "exampleTranslation": "Tolong selesaikan pelajaran hari ini.",
+          "synonym": "finish",
+          "antonym": "abandon"
+        },
+        {
+          "id": "w1d2-understand",
+          "word": "understand",
+          "meaning": "memahami",
+          "pronunciation": "understand",
+          "phonetic": "/ˌʌndərˈstænd/",
+          "partOfSpeech": "verb",
+          "example": "I understand the explanation.",
+          "exampleTranslation": "Saya memahami penjelasannya.",
+          "synonym": "comprehend",
+          "antonym": "misunderstand"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 3,
+      "topic": "Day 3",
+      "words": [
+        {
+          "id": "w1d3-office",
+          "word": "office",
+          "meaning": "kantor",
+          "pronunciation": "office",
+          "phonetic": "/ˈɒfɪs/",
+          "partOfSpeech": "noun",
+          "example": "The office opens at eight.",
+          "exampleTranslation": "Kantor buka pukul delapan.",
+          "synonym": "workplace",
+          "antonym": "home"
+        },
+        {
+          "id": "w1d3-internship",
+          "word": "internship",
+          "meaning": "magang",
+          "pronunciation": "internship",
+          "phonetic": "/ˈɪntɜːrnʃɪp/",
+          "partOfSpeech": "noun",
+          "example": "My internship teaches me new skills.",
+          "exampleTranslation": "Magang saya mengajarkan keterampilan baru.",
+          "synonym": "placement",
+          "antonym": "unemployment"
+        },
+        {
+          "id": "w1d3-project",
+          "word": "project",
+          "meaning": "proyek",
+          "pronunciation": "project",
+          "phonetic": "/ˈprɒdʒekt/",
+          "partOfSpeech": "noun",
+          "example": "We are working on a new project.",
+          "exampleTranslation": "Kami sedang mengerjakan proyek baru.",
+          "synonym": "assignment",
+          "antonym": "idleness"
+        },
+        {
+          "id": "w1d3-meeting",
+          "word": "meeting",
+          "meaning": "rapat",
+          "pronunciation": "meeting",
+          "phonetic": "/ˈmiːtɪŋ/",
+          "partOfSpeech": "noun",
+          "example": "The meeting starts at nine.",
+          "exampleTranslation": "Rapat dimulai pukul sembilan.",
+          "synonym": "conference",
+          "antonym": "separation"
+        },
+        {
+          "id": "w1d3-report",
+          "word": "report",
+          "meaning": "laporan",
+          "pronunciation": "report",
+          "phonetic": "/rɪˈpɔːrt/",
+          "partOfSpeech": "noun",
+          "example": "I write a report every Friday.",
+          "exampleTranslation": "Saya menulis laporan setiap Jumat.",
+          "synonym": "document",
+          "antonym": "silence"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 4,
+      "topic": "Day 4",
+      "words": [
+        {
+          "id": "w1d4-breakfast",
+          "word": "breakfast",
+          "meaning": "sarapan",
+          "pronunciation": "breakfast",
+          "phonetic": "/ˈbrekfəst/",
+          "partOfSpeech": "noun",
+          "example": "I eat breakfast at seven.",
+          "exampleTranslation": "Saya sarapan pukul tujuh.",
+          "synonym": "morning meal",
+          "antonym": "fasting"
+        },
+        {
+          "id": "w1d4-lunch",
+          "word": "lunch",
+          "meaning": "makan siang",
+          "pronunciation": "lunch",
+          "phonetic": "/lʌntʃ/",
+          "partOfSpeech": "noun",
+          "example": "We have lunch together.",
+          "exampleTranslation": "Kami makan siang bersama.",
+          "synonym": "midday meal",
+          "antonym": "fasting"
+        },
+        {
+          "id": "w1d4-dinner",
+          "word": "dinner",
+          "meaning": "makan malam",
+          "pronunciation": "dinner",
+          "phonetic": "/ˈdɪnər/",
+          "partOfSpeech": "noun",
+          "example": "Dinner is ready.",
+          "exampleTranslation": "Makan malam sudah siap.",
+          "synonym": "evening meal",
+          "antonym": "fasting"
+        },
+        {
+          "id": "w1d4-restaurant",
+          "word": "restaurant",
+          "meaning": "restoran",
+          "pronunciation": "restaurant",
+          "phonetic": "/ˈrestərɒnt/",
+          "partOfSpeech": "noun",
+          "example": "This restaurant serves good food.",
+          "exampleTranslation": "Restoran ini menyajikan makanan enak.",
+          "synonym": "eatery",
+          "antonym": "home kitchen"
+        },
+        {
+          "id": "w1d4-delicious",
+          "word": "delicious",
+          "meaning": "lezat",
+          "pronunciation": "delicious",
+          "phonetic": "/dɪˈlɪʃəs/",
+          "partOfSpeech": "adjective",
+          "example": "The soup is delicious.",
+          "exampleTranslation": "Supnya lezat.",
+          "synonym": "tasty",
+          "antonym": "awful"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 5,
+      "topic": "Day 5",
+      "words": [
+        {
+          "id": "w1d5-always",
+          "word": "always",
+          "meaning": "selalu",
+          "pronunciation": "always",
+          "phonetic": "/ˈɔːlweɪz/",
+          "partOfSpeech": "adverb",
+          "example": "I always review my notes.",
+          "exampleTranslation": "Saya selalu mengulang catatan saya.",
+          "synonym": "every time",
+          "antonym": "never"
+        },
+        {
+          "id": "w1d5-usually",
+          "word": "usually",
+          "meaning": "biasanya",
+          "pronunciation": "usually",
+          "phonetic": "/ˈjuːʒuəli/",
+          "partOfSpeech": "adverb",
+          "example": "We usually study at night.",
+          "exampleTranslation": "Kami biasanya belajar malam hari.",
+          "synonym": "normally",
+          "antonym": "rarely"
+        },
+        {
+          "id": "w1d5-sometimes",
+          "word": "sometimes",
+          "meaning": "kadang-kadang",
+          "pronunciation": "sometimes",
+          "phonetic": "/ˈsʌmtaɪmz/",
+          "partOfSpeech": "adverb",
+          "example": "She sometimes drinks tea.",
+          "exampleTranslation": "Dia kadang-kadang minum teh.",
+          "synonym": "occasionally",
+          "antonym": "always"
+        },
+        {
+          "id": "w1d5-rarely",
+          "word": "rarely",
+          "meaning": "jarang",
+          "pronunciation": "rarely",
+          "phonetic": "/ˈreərli/",
+          "partOfSpeech": "adverb",
+          "example": "He rarely arrives late.",
+          "exampleTranslation": "Dia jarang datang terlambat.",
+          "synonym": "seldom",
+          "antonym": "often"
+        },
+        {
+          "id": "w1d5-never",
+          "word": "never",
+          "meaning": "tidak pernah",
+          "pronunciation": "never",
+          "phonetic": "/ˈnevər/",
+          "partOfSpeech": "adverb",
+          "example": "They never skip practice.",
+          "exampleTranslation": "Mereka tidak pernah melewatkan latihan.",
+          "synonym": "not ever",
+          "antonym": "always"
+        }
+      ]
+    },
+    {
+      "week": 1,
+      "day": 6,
+      "topic": "Day 6",
+      "words": [
+        {
+          "id": "w1d6-beautiful",
+          "word": "beautiful",
+          "meaning": "indah",
+          "pronunciation": "beautiful",
+          "phonetic": "/ˈbjuːtɪfəl/",
+          "partOfSpeech": "adjective",
+          "example": "The garden is beautiful.",
+          "exampleTranslation": "Tamannya indah.",
+          "synonym": "lovely",
+          "antonym": "ugly"
+        },
+        {
+          "id": "w1d6-expensive",
+          "word": "expensive",
+          "meaning": "mahal",
+          "pronunciation": "expensive",
+          "phonetic": "/ɪkˈspensɪv/",
+          "partOfSpeech": "adjective",
+          "example": "This laptop is expensive.",
+          "exampleTranslation": "Laptop ini mahal.",
+          "synonym": "costly",
+          "antonym": "cheap"
+        },
+        {
+          "id": "w1d6-difficult",
+          "word": "difficult",
+          "meaning": "sulit",
+          "pronunciation": "difficult",
+          "phonetic": "/ˈdɪfɪkəlt/",
+          "partOfSpeech": "adjective",
+          "example": "The question is difficult.",
+          "exampleTranslation": "Pertanyaannya sulit.",
+          "synonym": "hard",
+          "antonym": "easy"
+        },
+        {
+          "id": "w1d6-important",
+          "word": "important",
+          "meaning": "penting",
+          "pronunciation": "important",
+          "phonetic": "/ɪmˈpɔːrtənt/",
+          "partOfSpeech": "adjective",
+          "example": "Daily practice is important.",
+          "exampleTranslation": "Latihan harian itu penting.",
+          "synonym": "essential",
+          "antonym": "unimportant"
+        },
+        {
+          "id": "w1d6-interesting",
+          "word": "interesting",
+          "meaning": "menarik",
+          "pronunciation": "interesting",
+          "phonetic": "/ˈɪntrəstɪŋ/",
+          "partOfSpeech": "adjective",
+          "example": "The lesson is interesting.",
+          "exampleTranslation": "Pelajarannya menarik.",
+          "synonym": "engaging",
+          "antonym": "boring"
+        }
+      ]
+    }
+  ]
+}
