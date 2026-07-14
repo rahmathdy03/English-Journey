@@ -1,0 +1,1 @@
+function enforceRateLimit_(identity,action){const cache=CacheService.getScriptCache(),minute=Math.floor(Date.now()/60000),key='rate:'+hashText_(identity+'|'+action+'|'+minute),count=Number(cache.get(key)||0)+1;if(count>APP_CONFIG.MAX_REQUESTS_PER_MINUTE)throw appError_('Too many requests. Please try again shortly.','RATE_LIMITED');cache.put(key,String(count),90)}
