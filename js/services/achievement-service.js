@@ -1,0 +1,1 @@
+export const achievementProgress=(c,t)=>Math.min(100,Math.round(Number(c||0)/Math.max(1,Number(t||1))*100));

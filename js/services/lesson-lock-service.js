@@ -1,0 +1,1 @@
+export const canOpenDay=(d,c,done=[])=>d===c||done.includes(d)||d<c;

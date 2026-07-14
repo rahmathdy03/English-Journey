@@ -1,0 +1,1 @@
+import{NAV_ITEMS}from'../constants.js';export const mobileNav=a=>`<nav class="mobile-nav"><ul>${NAV_ITEMS.map(i=>`<li><a class="${i.key===a?'active':''}" href="${i.href}"><i data-lucide="${i.icon}"></i><span>${i.label}</span></a></li>`).join('')}</ul></nav>`;

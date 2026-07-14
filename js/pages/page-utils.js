@@ -1,0 +1,1 @@
+export function queryNumber(n,f){const v=Number(new URLSearchParams(location.search).get(n));return Number.isInteger(v)&&v>0?v:f}export async function loadWeekData(k,w){const r=await fetch(`../data/${k}/week-${String(w).padStart(2,'0')}.json`);if(!r.ok)throw new Error(`Week ${w} content is not available.`);return r.json()}export const pageLink=(f,w,d)=>`${f}?week=${w}&day=${d}`;

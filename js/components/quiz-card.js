@@ -1,0 +1,1 @@
+export const quizCard=(t,title,d,i)=>`<article class="card practice-card"><div class="practice-icon"><i data-lucide="${i}"></i></div><h3>${title}</h3><p class="muted">${d}</p><a class="btn btn-primary" href="${t}-quiz.html">Start quiz</a></article>`;

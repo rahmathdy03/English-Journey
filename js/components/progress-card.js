@@ -1,0 +1,1 @@
+export const statCard=(i,l,v,t='')=>`<article class="card stat-card"><div class="icon-box ${t}"><i data-lucide="${i}"></i></div><div><strong>${v}</strong><small>${l}</small></div></article>`;

@@ -1,0 +1,2 @@
+import{apiClient}from'./api-client.js';
+export const progressApi={getProgress:()=>apiClient.post('getProgress'),getCompareProgress:()=>apiClient.post('getCompareProgress'),getCalendar:(year,month)=>apiClient.post('getCalendar',{year,month}),getCoupleGoal:()=>apiClient.post('getCoupleGoal')};

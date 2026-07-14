@@ -1,0 +1,1 @@
+export const CONFIG={APPS_SCRIPT_URL:"https://script.google.com/macros/s/AKfycbznoxw0Gk7uV-25O_ZkpwdBxjHTSZTKVNUoN70Qbci1RT2422Lk3EzYBDaKOxYYbeYz/exec",REQUEST_TIMEOUT_MS:60000,APP_NAME:"English Journey"};

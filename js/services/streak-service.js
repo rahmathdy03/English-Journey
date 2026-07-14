@@ -1,0 +1,1 @@
+export const streakMessage=s=>s>=7?'Your habit is getting stronger.':s>0?'Keep the streak alive.':'Start your streak today.';

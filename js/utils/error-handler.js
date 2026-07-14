@@ -1,0 +1,1 @@
+export function friendlyError(e){if(!navigator.onLine)return'No internet connection. Please reconnect and try again.';if(e?.code==='CONFIG_MISSING')return'Apps Script URL has not been configured yet.';if(e?.code==='AUTH_INVALID_SESSION')return'Your session has expired. Please log in again.';return e?.message||'Something went wrong. Please try again.'}

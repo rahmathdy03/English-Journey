@@ -1,0 +1,2 @@
+import{apiClient}from'./api-client.js';
+export const quizApi={getQuiz:(week,day,quizType)=>apiClient.post('getQuiz',{week,day,quizType}),submitQuiz:(week,day,quizType,answers)=>apiClient.post('submitQuiz',{week,day,quizType,answers}),getResult:(week,day)=>apiClient.post('getResult',{week,day})};

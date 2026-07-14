@@ -1,0 +1,2 @@
+import{apiClient}from'./api-client.js';
+export const weeklyApi={getWeeklyChallenge:week=>apiClient.post('getWeeklyChallenge',{week}),submitWeeklyChallenge:(week,answers)=>apiClient.post('submitWeeklyChallenge',{week,answers})};

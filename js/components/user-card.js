@@ -1,0 +1,1 @@
+export const userCard=(u,s='')=>`<article class="card partner-card"><img src="../assets/images/avatars/${u.avatar}" alt=""><div><h3>${u.displayName}</h3><p class="muted">${s}</p></div></article>`;

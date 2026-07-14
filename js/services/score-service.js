@@ -1,0 +1,1 @@
+export const scoreLabel=s=>s>=90?'Excellent!':s>=75?'Great progress!':s>=60?'Keep practicing!':'Review and try again.';

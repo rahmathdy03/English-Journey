@@ -1,0 +1,2 @@
+import{apiClient}from'./api-client.js';
+export const reviewApi={getReviewList:()=>apiClient.post('getReviewList'),submitReview:(itemType,itemId,correct)=>apiClient.post('submitReview',{itemType,itemId,correct})};

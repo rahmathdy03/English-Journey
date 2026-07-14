@@ -1,0 +1,1 @@
+import{isSessionPresent}from'./session.js';export function requireAuth(){if(!isSessionPresent()){location.replace('login.html');return false}return true}export function redirectIfAuthenticated(){if(isSessionPresent())location.replace('dashboard.html')}

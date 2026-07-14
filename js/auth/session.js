@@ -1,0 +1,3 @@
+const KEY='englishJourneySession';export const saveSession=s=>sessionStorage.setItem(KEY,JSON.stringify({token:s.token,user:s.user,expiresAt:s.expiresAt}));export function getSession(){try{return JSON.parse(sessionStorage.getItem(KEY)||'null')}catch{return null}}export const clearSession=()=>sessionStorage.removeItem(KEY);export const getToken=()=>getSession()?.token||'';export const getUser=()=>getSession()?.user||null;export function isSessionPresent(){const s=getSession();if(!s?.token)return false;if(s.expiresAt&&new Date(s.expiresAt).getTime()<=Date.now()){clearSession();return false}return true}
+export function updateSessionUser(patch){const s=getSession();if(!s)return;saveSession({...s,user:{...s.user,...patch}})}
+

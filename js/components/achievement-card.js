@@ -1,0 +1,1 @@
+export const achievementCard=i=>`<article class="card achievement-card ${i.unlocked?'':'locked'}"><div class="achievement-icon"><i data-lucide="${i.icon||'award'}"></i></div><h3>${i.name}</h3><p class="muted small">${i.description}</p><span class="badge ${i.unlocked?'success':''}">${i.unlocked?'Unlocked':'Locked'}</span></article>`;

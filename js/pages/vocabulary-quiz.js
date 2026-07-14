@@ -1,0 +1,1 @@
+import{startQuiz}from'./quiz-page.js';startQuiz('vocabulary','Vocabulary Quiz');

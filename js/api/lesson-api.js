@@ -1,0 +1,2 @@
+import{apiClient}from'./api-client.js';
+export const lessonApi={getDailyLesson:(week,day)=>apiClient.post('getDailyLesson',{week,day}),completeVocabularyLesson:(week,day)=>apiClient.post('completeVocabularyLesson',{week,day}),completeGrammarLesson:(week,day)=>apiClient.post('completeGrammarLesson',{week,day})};

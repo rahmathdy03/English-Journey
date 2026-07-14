@@ -1,0 +1,2 @@
+import{apiClient}from'./api-client.js';
+export const authApi={login:(userId,pin)=>apiClient.post('login',{userId,pin},{auth:false}),logout:sessionToken=>apiClient.post('logout',{sessionToken},{auth:false})};

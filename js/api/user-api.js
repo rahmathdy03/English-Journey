@@ -1,0 +1,2 @@
+import{apiClient}from'./api-client.js';
+export const userApi={getDashboard:()=>apiClient.post('getDashboard'),getProfile:()=>apiClient.post('getProfile'),updateProfile:d=>apiClient.post('updateProfile',d),updatePin:(currentPin,newPin)=>apiClient.post('updatePin',{currentPin,newPin})};

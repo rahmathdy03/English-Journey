@@ -1,0 +1,1 @@
+import{authApi}from'../api/auth-api.js';import{clearSession,getToken}from'./session.js';export async function logout(){try{const t=getToken();if(t)await authApi.logout(t)}catch{}clearSession();location.replace('login.html')}

@@ -1,0 +1,1 @@
+export function assert(c,m,code='VALIDATION_ERROR'){if(!c){const e=new Error(m);e.code=code;throw e}}

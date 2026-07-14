@@ -1,0 +1,1 @@
+export const isValidPin=p=>/^\d{4,10}$/.test(String(p||''));
