@@ -1,3 +1,7 @@
+import {
+  initWhatsNew
+} from "./components/whats-new.js";
+
 import { sidebar } from "./components/sidebar.js";
 
 import {
@@ -66,6 +70,7 @@ export function initProtectedPage({
 
   refreshIcons();
   initMobileNav();
+  initWhatsNew();
 
   return document.getElementById("page-content");
 }
