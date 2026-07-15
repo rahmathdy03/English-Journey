@@ -169,27 +169,35 @@ export function mobileNav(activeKey) {
 }
 
 export function initMobileNav() {
-  const openButton = document.querySelector(
-    "#mobile-more-button"
+  const openButton = document.getElementById(
+    "mobile-more-button"
   );
 
-  const closeButton = document.querySelector(
-    "#mobile-more-close"
+  const closeButton = document.getElementById(
+    "mobile-more-close"
   );
 
-  const menu = document.querySelector(
-    "#mobile-more-menu"
+  const menu = document.getElementById(
+    "mobile-more-menu"
   );
 
-  const overlay = document.querySelector(
-    "#mobile-more-overlay"
+  const overlay = document.getElementById(
+    "mobile-more-overlay"
   );
 
   if (!openButton || !menu || !overlay) {
+    console.error("Mobile navigation elements not found", {
+      openButton,
+      menu,
+      overlay
+    });
+
     return;
   }
 
-  function openMenu() {
+  function openMenu(event) {
+    event?.preventDefault();
+
     menu.classList.add("open");
     overlay.classList.add("open");
     document.body.classList.add("mobile-menu-open");
@@ -197,11 +205,11 @@ export function initMobileNav() {
     menu.setAttribute("aria-hidden", "false");
     overlay.setAttribute("aria-hidden", "false");
     openButton.setAttribute("aria-expanded", "true");
-
-    closeButton?.focus();
   }
 
-  function closeMenu() {
+  function closeMenu(event) {
+    event?.preventDefault();
+
     menu.classList.remove("open");
     overlay.classList.remove("open");
     document.body.classList.remove("mobile-menu-open");
@@ -211,15 +219,16 @@ export function initMobileNav() {
     openButton.setAttribute("aria-expanded", "false");
   }
 
-  openButton.addEventListener("click", openMenu);
-  closeButton?.addEventListener("click", closeMenu);
-  overlay.addEventListener("click", closeMenu);
+  openButton.onclick = openMenu;
 
-  document.addEventListener("keydown", (event) => {
-    if (
-      event.key === "Escape" &&
-      menu.classList.contains("open")
-    ) {
+  if (closeButton) {
+    closeButton.onclick = closeMenu;
+  }
+
+  overlay.onclick = closeMenu;
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
       closeMenu();
     }
   });
