@@ -1,3 +1,8 @@
+export function initWhatsNew() {
+  console.log("Whats New initialized");
+
+  const storageKey = "englishJourneySeenVersion";
+
 import {
   initWhatsNew
 } from "./components/whats-new.js";
