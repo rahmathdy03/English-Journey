@@ -1,1 +1,94 @@
-import{sidebar}from'./components/sidebar.js';import{mobileNav}from'./components/navbar.js';import{requireAuth}from'./auth/auth-guard.js';import{refreshIcons}from'./utils/dom.js';export function initProtectedPage({active='dashboard',title=''}={}){if(!requireAuth())return null;const a=document.getElementById('app');a.className='app-shell';a.innerHTML=`${sidebar(active)}<main class="main-area"><div class="page-container"><div class="internet-banner ${navigator.onLine?'hidden':''}" id="internet-banner"><i data-lucide="wifi-off"></i>Internet is required because progress is stored in Google Sheets.</div><div id="page-content"></div></div></main>${mobileNav(active)}`;document.title=`${title?title+' · ':''}English Journey`;const b=document.getElementById('internet-banner');addEventListener('online',()=>b?.classList.add('hidden'));addEventListener('offline',()=>b?.classList.remove('hidden'));refreshIcons();return document.getElementById('page-content')}export const pageHeader=(t,s='',a='')=>`<header class="page-header"><div><p class="eyebrow">English Journey</p><h1>${t}</h1>${s?`<p class="muted">${s}</p>`:''}</div>${a}</header>`;
+import { sidebar } from "./components/sidebar.js";
+
+import {
+  mobileNav,
+  initMobileNav
+} from "./components/navbar.js";
+
+import { requireAuth } from "./auth/auth-guard.js";
+import { refreshIcons } from "./utils/dom.js";
+
+export function initProtectedPage({
+  active = "dashboard",
+  title = ""
+} = {}) {
+  if (!requireAuth()) {
+    return null;
+  }
+
+  const app = document.getElementById("app");
+
+  if (!app) {
+    return null;
+  }
+
+  app.className = "app-shell";
+
+  app.innerHTML = `
+    ${sidebar(active)}
+
+    <main class="main-area">
+      <div class="page-container">
+        <div
+          class="internet-banner ${
+            navigator.onLine ? "hidden" : ""
+          }"
+          id="internet-banner"
+        >
+          <i data-lucide="wifi-off"></i>
+
+          Internet is required because progress is stored
+          in Google Sheets.
+        </div>
+
+        <div id="page-content"></div>
+      </div>
+    </main>
+
+    ${mobileNav(active)}
+  `;
+
+  document.title = `${
+    title ? title + " · " : ""
+  }English Journey`;
+
+  const internetBanner = document.getElementById(
+    "internet-banner"
+  );
+
+  window.addEventListener("online", () => {
+    internetBanner?.classList.add("hidden");
+  });
+
+  window.addEventListener("offline", () => {
+    internetBanner?.classList.remove("hidden");
+  });
+
+  refreshIcons();
+  initMobileNav();
+
+  return document.getElementById("page-content");
+}
+
+export function pageHeader(
+  title,
+  subtitle = "",
+  actions = ""
+) {
+  return `
+    <header class="page-header">
+      <div>
+        <p class="eyebrow">English Journey</p>
+        <h1>${title}</h1>
+
+        ${
+          subtitle
+            ? `<p class="muted">${subtitle}</p>`
+            : ""
+        }
+      </div>
+
+      ${actions}
+    </header>
+  `;
+}
