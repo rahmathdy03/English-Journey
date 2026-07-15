@@ -54,7 +54,10 @@ export function sidebar(activeKey) {
           src="../assets/images/logo/logo-mark.svg"
           alt="English Journey"
         >
-        <strong>English Journey</strong>
+         <div class="brand-copy">
+    <strong>English Journey</strong>
+    <small class="app-version">Version 1.0.4</small>
+  </div>
       </a>
 
       <nav class="sidebar-nav">
