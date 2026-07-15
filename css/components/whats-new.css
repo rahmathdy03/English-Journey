@@ -1,0 +1,156 @@
+.whats-new-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+
+  display: grid;
+  place-items: center;
+
+  padding: 20px;
+
+  background: rgba(38, 50, 75, 0.34);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition:
+    opacity 0.25s ease,
+    visibility 0.25s ease;
+}
+
+.whats-new-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.whats-new-modal {
+  position: relative;
+
+  width: min(100%, 470px);
+  padding: 30px;
+
+  border: 1px solid var(--border);
+  border-radius: 26px;
+
+  background: var(--card);
+  box-shadow: 0 24px 70px rgba(38, 50, 75, 0.24);
+
+  transform: translateY(24px) scale(0.98);
+
+  transition: transform 0.25s ease;
+}
+
+.whats-new-overlay.open .whats-new-modal {
+  transform: translateY(0) scale(1);
+}
+
+.whats-new-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+
+  display: grid;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+
+  place-items: center;
+
+  color: var(--text-primary);
+
+  border: 0;
+  border-radius: 13px;
+  background: var(--primary-blue);
+
+  cursor: pointer;
+}
+
+.whats-new-close svg {
+  width: 20px;
+  height: 20px;
+}
+
+.whats-new-icon {
+  display: grid;
+  width: 58px;
+  height: 58px;
+
+  place-items: center;
+
+  margin-bottom: 18px;
+
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    var(--primary-blue),
+    var(--primary-pink)
+  );
+}
+
+.whats-new-icon svg {
+  width: 27px;
+  height: 27px;
+}
+
+.whats-new-eyebrow {
+  margin: 0 0 5px;
+
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.whats-new-modal h2 {
+  margin: 0 0 8px;
+
+  font-family: var(--font-display);
+  font-size: 2rem;
+}
+
+.whats-new-version {
+  display: inline-block;
+
+  margin-bottom: 20px;
+  padding: 7px 12px;
+
+  color: var(--text-primary);
+  font-size: 0.78rem;
+  font-weight: 800;
+
+  border-radius: 999px;
+  background: var(--primary-blue);
+}
+
+.whats-new-list {
+  display: grid;
+  gap: 11px;
+
+  margin: 0 0 24px;
+  padding-left: 20px;
+
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.whats-new-button {
+  width: 100%;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+@media (max-width: 520px) {
+  .whats-new-modal {
+    padding: 26px 22px 22px;
+    border-radius: 22px;
+  }
+
+  .whats-new-modal h2 {
+    font-size: 1.7rem;
+  }
+}
