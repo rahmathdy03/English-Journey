@@ -1,10 +1,10 @@
 const APP_VERSION = "1.0.4";
 
 const RELEASE_NOTES = [
-  "Improved mobile navigation with a More menu.",
-  "Improved quiz submission stability.",
-  "Added profile PIN update.",
-  "Fixed dashboard and review loading issues."
+  "Meningkatkan tampilan pada perangkat mobile.",
+  "Meningkatkan kecepatan submit Quiz.",
+  "Menambahkan fitur ganti pin.",
+  "Memperbaiki halaman utama."
 ];
 
 function whatsNewMarkup() {
